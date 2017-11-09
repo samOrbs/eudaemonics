@@ -1,5 +1,4 @@
-A Copy of the C example of the Lyapunov exponent taken from C.A.Pickovers Chaos\
-In Wonderland...
+/* A Copy of the C example of the Lyapunov exponent taken from C.A.Pickovers Chaos In Wonderland... */
 
 Lsum = 0;
 n = 0;
