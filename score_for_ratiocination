@@ -1,0 +1,7 @@
+ An outline for a prodecural score inspired by ideas in Clifford Pickover's Chaos In Wonderland (1995),'Visual Adventures in a Fractal World'.
+
+ Steps to design a computer program that searches for symmetrical/musical patterns evolving out of Lyapunov exponents in itteraton...
+
+Chaotic Attractors with a negative exponent are usually dull and boring, those with higher positive exponents tend to be more 'fluffy' ,those with an exponent of around 0.5 are usually the most pleasing. In this method the Lyapunov exponent is calculated to automatically eliminate certain combinations of a,b,c and d thus speeding up the search for beauty.  
+
+1. 
