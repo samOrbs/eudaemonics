@@ -1,10 +1,16 @@
  An outline for a prodecural score inspired by ideas in Clifford Pickover's Chaos In Wonderland (1995),'Visual Adventures in a Fractal World'.
+ All text in quotation "..." is a direct transcription. 
 
  Steps to design a computer program that searches for symmetrical/musical patterns evolving out of Lyapunov exponents in itteraton...
 
-The following steps may be executed to comute and select the chaotic patterns based on the instructins given by Pickover.C. on page no.75. This score will not be using this to plot points in a visual method but to slide between tone frequencies and duration, also we will be listening to it itterating live and judging each set on its musicality not visual aesthetics, but the same method for searching applies:
+The following steps may be executed to comute and select the chaotic patterns based on the instructins given by Pickover.C.(p.75).
+This score will not be using this to plot points in a visual method but to slide between tone frequencies and duration,
+also we will be listening to it itterating live and judging each set on its musicality not visual aesthetics, but the same
+method for searching applies:
 
-"1. First select random values for constants a,b,c and d" (true randomeness methods will create more meaningful outputs,(true randomness is true ignorance), use a radio antennae tuned to 21.1mhz, the hydrogen band)."As mentioned earlier, for good results they should be in ranges (-3<a,b<3) and (0.5<c,d<1.5).
+"1. First select random values for constants a,b,c and d" (true randomeness methods will create more meaningful outputs,
+a radio antennae tuned to 21.1mhz, the hydrogen band is a good example)."As mentioned earlier, for good results they should 
+be in ranges (-3<a,b<3) and (0.5<c,d<1.5).
 
 2. Iterate the equations a  few hundred times to determine maximum and minimum bounds for sizing the picture on graphics screen.
 
@@ -14,9 +20,12 @@ The following steps may be executed to comute and select the chaotic patterns ba
 
 5.Iterate several million times and plot points." Pickover.(p75) 
 
-Notes: Chaotic Attractors with a negative exponent are usually dull and boring, those with higher positive exponents tend to be more 'fluffy' ,those with an exponent of around 0.5 are usually the most pleasing. In this method the Lyapunov exponent is calculated to automatically eliminate certain combinations of a,b,c and d thus speeding up the search for beauty.
-
+Notes: Chaotic Attractors with a negative exponent, Pickover notes, are usually, "dull and boring", those with higher positive
+exponents tend to be more, "fluffy" and those with an exponent of around 0.5 are usually the most pleasing. In this method the
+Lyapunov exponent is calculated to automatically eliminate certain combinations of a,b,c and thus, "speeding up the search for beauty."
+  
 ////////////////////////////////////
 
 (2.) 
-HARDWARE and software: 
+HARDWARE and SOFTWARE:
+
