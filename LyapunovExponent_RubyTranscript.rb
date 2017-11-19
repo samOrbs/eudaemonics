@@ -1,8 +1,8 @@
 # Lyapunov Exponent Calculation (L) re-Written in Ruby from Old C example taken from C.Pickovers Chaos In Wonderland.
-a = rand(1)
-b = rand(1)
-c = rand(1)
-d = rand(1)
+a = rrand(-3,0) # a > -3
+b = rrand(0,3) # b < 3
+c = rrand(0,0.5) # 0.5 < c
+d = rrand(0,1.5) # d < 1.5
 
 Lsum = 0
 n = 0
@@ -18,9 +18,10 @@ ye = y
   ysave = yy
   x = xe
   y = ye
-  n++
-    # Re-Iterate for computing Lyapunov Exponent (L)
-    xx = Math.sin(y*b) + c*Math.sin(x*b)
+  n+=1
+  
+  # Re-Iterate for computing Lyapunov Exponent (L)
+  xx = Math.sin(y*b) + c*Math.sin(x*b)
   yy = Math.sin(x*a) + d*Math.sin(y*a)
   dLx = xx - xsave
   dLy = yy - ysave
@@ -38,4 +39,5 @@ ye = y
   # L is the value for the Lyapunov exponent
   sleep 0.125
   puts(L)
+  puts(n)
 end
