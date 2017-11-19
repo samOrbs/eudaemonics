@@ -37,7 +37,17 @@ ye = y
   x = xx
   y = yy
   # L is the value for the Lyapunov exponent
-  sleep 0.125
+  slep = L
+  if (slep <= 0)
+    slep = slep * -1
+  end
+  sleep slep
+  use_random_seed L*1000
+  with_fx :pan, pan:rrand(-1,1) do
+    synth :beep, note:(scale (ring :es6,:es7,:es8,:es2).tick(:A),:aeolian).choose + L, sustain: slep*0.125
+  end
   puts(L)
   puts(n)
 end
+
+
